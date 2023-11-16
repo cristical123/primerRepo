@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>ProyectoFinal</title>
+</head>
+<body>
+    <nav>
+        <a class="logocompu" href="./index.html">
+            <svg class="logo1" style="width: 200px; height: 80px;">
+                <rect class="rect1" x="45" y="5" width="60"
+                height="35" rx="5"
+                fill="#F0E9D2"></rect> 
+                <rect class="rect2" x="50" y="10" width="50"
+                height="25" rx="5"
+                fill=" #495579"></rect> 
+                <polygon class="poly1" points=" 55 45, 95 45, 115 62, 30 62 " fill="#F0E9D2"></polygon>
+                <polygon class="poly2" points=" 57 48, 92 48, 104 58, 43 58" fill="#495579"></polygon>
+            </svg>
+        </a>
+        <ul class="menuPrincipal">
+            <li class="botonesMenu">
+                <a class="link" href="./historia.html">HISTORIA</a>
+            </li>
+            <li class="botonesMenu">
+                <a class="link" href="./juguemos.html">JUGUEMOS</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <header class="titulo">
+        <h1>JUGUEMOS UN POCO</h1>
+    </header>
+
+    <main class="main3">
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+
+   
+<section class="contenedorJuego">
+    <div class="cajasArras">
+        <div id="arrasCaja1" class="caja">
+            <p class="pCaja">Arrastre y suelte la imágen aquí</p>
+        </div>
+
+        <div id="arrasCaja2" class="caja">
+            <p>Arrastre y suelte la imágen aquí</p>
+        </div>
+
+        <div id="arrasCaja3" class="caja">
+            <p>Arrastre y suelte la imágen aquí</p>
+        </div>
+    </div>
+</section>
+
+<section class="imagenesJuego">
+    <div class="imagenesArras">
+        <img id="imag1" src="/assets/imagenes/Rompe3.png" alt="imagen-juego">
+        <img id="imag2" src="/assets/imagenes/Rompe1.png" alt="imagen-juego">
+        <img id="imag3" src="/assets/imagenes/rompe2.png" alt="imagen-juego">
+    </div>
+
+        <button class="botonReinicio" onclick="reinicio()"> Reiniciar</button>
+            
+
+    </section>
+    </main>
+
+    <footer>
+        <div class="footerUno">
+
+        <img class="logoFoot" src="/assets/imagenes/logo.png" alt="logofinal">
+
+        <h3>PROGRAMACION E HISTORIA</h3>
+
+        </div>
+
+        <div class="footerDos"><P>Sitio con fines educativos - creado por Cristina Calderon</P></div>
+        
+    </footer>
+
+
+    <script src="/JS/scriptJuguemos.js"></script>
+</body>
+</html>
